@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send an Email</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <h2>Send an Email</h2>
+            <input id="from" type="text" class="field" placeholder="From" readonly>
+            <input id="to" type="text" class="field" placeholder="To">
+            <input id="subject" type="text" class="field" placeholder="Subject">
+            <textarea id="message" class="field message-area" placeholder="Message"></textarea>
+            <div class="field attach-files">
+                <label class="attach-files-label">Attach files:</label>
+                <input id="files" type="file" class="choose-files" multiple>
+            </div>
+            <button id="send" class="field send-button">Send</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
